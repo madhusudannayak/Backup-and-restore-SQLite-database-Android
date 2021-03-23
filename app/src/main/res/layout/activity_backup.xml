@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".Backup">
+
+    <ImageButton
+        android:id="@+id/backup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="25sp"
+        android:background="#8CC9E4"
+        app:srcCompat="@drawable/backup" />
+
+    <TextView
+        android:id="@+id/backtextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/backup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="25sp"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="25sp"
+        android:layout_marginEnd="25sp"
+        android:layout_marginRight="25sp"
+        android:layout_marginBottom="25sp"
+        android:text="Backup"
+        android:textColor="#A14D4D"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/restore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/backtextview"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="25sp"
+        android:background="#8CC9E4"
+        app:srcCompat="@drawable/restore" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/restore"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="25sp"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="25sp"
+        android:layout_marginEnd="25sp"
+        android:layout_marginRight="25sp"
+        android:layout_marginBottom="25sp"
+        android:text="Restore"
+        android:textColor="#A14D4D"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
